@@ -3,10 +3,19 @@
 # look for a 1 billion pi online
 from pyboy import PyBoy
 from mpmath import mp
-import time
+import os
 
 # load rom
-pyboy = PyBoy('rom.gbc')
+
+for filename in os.listdir("Cartridge-Slot"):
+    if filename.endswith(('.gb', '.gba', '.gbc')):
+        first_file = os.path.join("Cartridge-Slot", filename)
+        print(f'Found: {first_file}')
+        break
+else:
+    print('No matching files found.')
+
+pyboy = PyBoy(first_file)
 pyboy.set_emulation_speed(0)
 
 # Générateur infini de chiffres de Pi
