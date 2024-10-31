@@ -37,7 +37,7 @@ Ensure you have a legally dumped ROM of Pokémon Gold (or another Game Boy Poké
 ## ▶️ Usage
 Run the main script, specifying the path to your Pokémon ROM. For example:
    ```bash
-      python pi_pokemon.py
+python pi_pokemon.py
 ```
 The script will begin using pi’s digits to control the character and interact with the Pokémon world in unpredictable ways.
 
