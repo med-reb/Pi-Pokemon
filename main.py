@@ -1,4 +1,5 @@
-# Emulate Game Boy to play Pokémon as a Pi (3.14) player
+
+# Emulate Game Boy to play Pokémon as a Pi (3.1415) player
 
 # look for a 1 billion pi online
 from pyboy import PyBoy
