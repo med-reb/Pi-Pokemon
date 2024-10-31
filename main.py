@@ -6,7 +6,7 @@ from pyboy import PyBoy
 from mpmath import mp
 import os
 
-# load rom
+# load roms
 
 for filename in os.listdir("Cartridge-Slot"):
     if filename.endswith(('.gb', '.gba', '.gbc')):
