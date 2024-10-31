@@ -9,7 +9,7 @@ import os
 # load roms
 
 for filename in os.listdir("Cartridge-Slot"):
-    if filename.endswith(('.gb', '.gba', '.gbc')):
+    if filename.endswith(('.gb', '.gbc')):
         first_file = os.path.join("Cartridge-Slot", filename)
         print(f'Found: {first_file}')
         break
