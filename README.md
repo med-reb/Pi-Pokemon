@@ -35,7 +35,7 @@
 Ensure you have a legally dumped ROM of Pokémon Gold (or another Game Boy Pokémon title) and place it in the project directory. Note: This project does not condone or support the use of ROMs obtained illegally. Please dump your own copy from a legally owned cartridge.
 
 ## ▶️ Usage
-Run the main script, specifying the path to your Pokémon ROM. For example:
+Run the main script. For example:
    ```bash
 python pi_pokemon.py
 ```
